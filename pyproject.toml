@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "utci"
+version = "0.1.0"
+description = "Calculate thermal comfort UTCI from GRIB data."
+authors = ["Ines Muic <ines.muic@cirus.dhz.hr>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "*"
+math = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
