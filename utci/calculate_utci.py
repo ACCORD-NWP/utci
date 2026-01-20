@@ -3,12 +3,6 @@
 import numpy as np
 import math
 
-from ..datetime_utils import as_datetime
-from ..logs import logger
-from ..toolbox import FileManager
-from .base import Task
-
-
 class Utci():
     """Calculate UTCI form the operational procedure."""
 
